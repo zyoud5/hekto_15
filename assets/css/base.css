@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --mainpink:#FF2B8B;
+    --secgreen:#08D15F;
+    --fontcolorsubdetails:#8A8FB9;
+    --fontHeaderblue:#151875;
+    --fontNavblue:#0D0E43;
+    --baseGap:30px;
+}
+.container{
+    margin-left: 270px;
+    margin-right: 270px;
+}
+.card{
+   width: calc((100% - 2 * var(--baseGap)) / 3);
+}
+.image-container{
+    background-color: #F6F7FB;
+}
+
+input{
+    outline: none;
+}
+
+
+.btn{
+    border:none;
+    outline: none;
+    color: white;
+}
+.fnavblue{
+    color: var(--fontNavblue);
+}
+.fmainpink{
+    color: var(--mainpink);
+}
+.bmainpink{
+    background-color: var(--mainpink);
+}
+.bsecgreen{
+    background-color: var(--secgreen);
+}
+
+.row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: var(--baseGap);
+}
+.d-flex{
+    display: flex;
+}
+.just-spacebetween{
+    justify-content:space-between;
+}
+.ali-center{
+    align-items: center;
+}
+.baseGap{
+    gap: var(--baseGap);
+}
+
+.col-direction{
+    flex-direction: column;
+}
+
+
+
+
+
+
+
+a{
+text-decoration: none;
+}
+ul{
+    list-style-type: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+

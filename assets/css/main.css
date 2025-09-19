@@ -1,0 +1,10 @@
+.header_section{
+    padding-top: 50px;
+}
+.search .btn{
+    padding: 8px 13px;
+}
+.search input {
+    border: solid 3px #E7E6EF;
+    width: 250px;
+}
