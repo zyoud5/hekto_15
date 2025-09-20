@@ -60,6 +60,9 @@ input{
 .ali-center{
     align-items: center;
 }
+.ali-start{
+align-items: flex-start;
+}
 .baseGap{
     gap: var(--baseGap);
 }
