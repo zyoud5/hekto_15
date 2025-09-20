@@ -16,12 +16,14 @@
     margin-right: 270px;
 }
 .card{
-   width: calc((100% - 2 * var(--baseGap)) / 3);
+   width: calc((100% - 3 * var(--baseGap)) / 4);
 }
 .image-container{
     background-color: #F6F7FB;
 }
-
+.just-center{
+    justify-content: center;
+}
 input{
     outline: none;
 }
@@ -34,6 +36,15 @@ input{
     outline: none;
     color: white;
 }
+.fliblue{
+    color: blue;
+}
+.line{
+    text-decoration: line-through;
+}
+.line-under{
+    text-decoration: underline;
+}
 .fnavblue{
     color: var(--fontNavblue);
 }
@@ -42,6 +53,9 @@ input{
 }
 .fblue{
 color: var(--fontHeaderblue);
+}
+.fred{
+    color:#FB2448;
 }
 .bblue{
     background-color: var(--fontNavblue);
@@ -52,7 +66,9 @@ color: var(--fontHeaderblue);
 .bsecgreen{
     background-color: var(--secgreen);
 }
-
+.wrap{
+    flex-wrap: wrap;
+}
 .row{
     display: flex;
     justify-content: center;
@@ -65,12 +81,19 @@ color: var(--fontHeaderblue);
 .just-spacebetween{
     justify-content:space-between;
 }
+.just-end{
+    justify-content: flex-end;
+}
 .ali-center{
     align-items: center;
 }
 .ali-start{
 align-items: flex-start;
 }
+.ali-end{
+    align-items: flex-end;
+}
+
 .baseGap{
     gap: var(--baseGap);
 }
@@ -78,11 +101,17 @@ align-items: flex-start;
 .col-direction{
     flex-direction: column;
 }
+.gap-15{
+    gap: 15px;
+}
+.gap-100{
+    gap: 100px;
+}
 
 
-
-
-
+.gap-50{
+    gap: 50px;
+}
 
 
 a{
