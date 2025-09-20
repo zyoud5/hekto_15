@@ -32,3 +32,76 @@
     top: 0px;
 
 }
+
+
+
+
+.products_featured{
+    padding-top:130px;
+}
+.products_featured .card{
+    padding-bottom: 17px;
+    transition: background-color 0.8s ease;
+}
+.products_featured .card:hover{
+    background-color:#2F1AC4;
+}
+.products_featured .image-container{
+    padding: 45px 45px 30px 45px;
+    position: relative;
+}
+.products_featured img{
+width: 178px;
+height: 178px;
+}
+.products_featured .btn{
+    padding: 8px 13px;
+    border-radius: 2px;
+}
+
+.products_featured .row  .baseGap{
+    gap: 15px;
+}
+.products_featured .row .btnc{
+    width: 14px;
+    height: 4px;
+    outline: none;
+    border: none;
+}
+.products_featured .actions-logos{
+    opacity: 0;
+    position: absolute;
+    left:11px;
+    top:11px;
+    transition: opacity 0.5s ease;
+}
+
+
+.products_featured .card:hover .actions-logos{
+    opacity: 1;
+}
+
+
+.products_featured .action-button{
+     opacity: 0;
+    position: absolute;
+    right:80px;
+    bottom:8px;
+    transition: opacity 0.5s ease;
+}
+
+.products_featured .card:hover .action-button{
+    opacity: 1;
+}
+.products_featured .card:hover .fmainpink{
+    color: white;
+}
+.products_featured .card:hover .fblue{
+    color: white;
+}
+.products_featured .card:hover .bblue{
+    background-color: white;
+}
+
+
+

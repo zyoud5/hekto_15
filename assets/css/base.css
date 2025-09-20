@@ -26,7 +26,9 @@ input{
     outline: none;
 }
 
-
+.text-center{
+    text-align: center;
+}
 .btn{
     border:none;
     outline: none;
@@ -37,6 +39,12 @@ input{
 }
 .fmainpink{
     color: var(--mainpink);
+}
+.fblue{
+color: var(--fontHeaderblue);
+}
+.bblue{
+    background-color: var(--fontNavblue);
 }
 .bmainpink{
     background-color: var(--mainpink);
