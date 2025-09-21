@@ -177,3 +177,42 @@ padding-top: 50px;
 
 
 
+
+.footer_section{
+    padding-top: 100px;
+    background-color: #F2F0FF;
+}
+
+.footer_section .container{
+    margin-left: 220px;
+}
+
+.footer_section .card{
+     width: calc((100% - 2 * 100px) / 3);
+}
+
+.footer_section input {
+    border: solid 3px #E7E6EF;
+   width: 240px;
+    height: 40px;
+    padding:20px ;
+    border-radius:3px;
+}
+
+.footer_section .btn{
+    padding: 10px 40px;
+    border-radius: 3px;
+     width:137px;
+    height: 43px;
+
+}
+
+.contact-section{
+    background-color: #E7E4F8;
+}
+
+
+
+
+
+
