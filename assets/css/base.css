@@ -15,6 +15,12 @@
     margin-left: 270px;
     margin-right: 270px;
 }
+.gap-8{
+    gap: 8px;
+}
+.padding-left-14{
+    padding-left: 14px;
+}
 .fwhite{
     color: rgba(21, 24, 117, 0.3);
 }

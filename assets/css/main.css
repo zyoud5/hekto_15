@@ -310,3 +310,39 @@ padding-top: 50px;
     padding: 16px 30px;
     border-radius: 2px;
 }
+
+
+
+
+
+
+
+.blogs{
+    padding-top: 100px;
+    padding-bottom: 115px;
+}
+.blogs .image-container img{
+    width:100%;
+    height: 100%;
+    border-radius: 8px;
+}
+
+.blogs .card{
+ width: calc((100% - 2 * 50px) / 3);
+ padding-bottom: 35px;
+}
+.blogs .image-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    object-fit: cover;
+}
+.blogs .card .actions{
+ transition: color 0.3s ease;
+}
+.blogs .card:hover .actions {
+   
+    color:#FF2B8B;
+}
+
+
