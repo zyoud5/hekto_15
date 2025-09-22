@@ -15,6 +15,9 @@
     margin-left: 270px;
     margin-right: 270px;
 }
+.fwhite{
+    color: rgba(21, 24, 117, 0.3);
+}
 .card{
    width: calc((100% - 3 * var(--baseGap)) / 4);
 }
